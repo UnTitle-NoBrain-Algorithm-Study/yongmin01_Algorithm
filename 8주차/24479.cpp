@@ -33,6 +33,7 @@ int main(int argc, const char * argv[])
     for(int i = 0; i < M; i++)
     {
         cin >> a >> b;
+        
         v[a].push_back(b);
         v[b].push_back(a);
     }
